@@ -1,0 +1,12 @@
+Source: ros-turbulent-ros-core
+Section: misc
+Priority: extra
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ros-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-ament-cmake, ros-turbulent-ament-cmake-auto, ros-turbulent-ament-cmake-gmock, ros-turbulent-ament-cmake-gtest, ros-turbulent-ament-cmake-pytest, ros-turbulent-ament-cmake-ros, ros-turbulent-ament-index-cpp, ros-turbulent-ament-index-python, ros-turbulent-ament-lint-auto, ros-turbulent-ament-lint-common, ros-turbulent-class-loader, ros-turbulent-common-interfaces, ros-turbulent-pluginlib, ros-turbulent-rcl-lifecycle, ros-turbulent-rclcpp, ros-turbulent-rclcpp-lifecycle, ros-turbulent-rclpy, ros-turbulent-ros-environment, ros-turbulent-ros2action, ros-turbulent-ros2component, ros-turbulent-ros2doctor, ros-turbulent-ros2interface, ros-turbulent-ros2launch, ros-turbulent-ros2lifecycle, ros-turbulent-ros2msg, ros-turbulent-ros2multicast, ros-turbulent-ros2node, ros-turbulent-ros2param, ros-turbulent-ros2pkg, ros-turbulent-ros2run, ros-turbulent-ros2service, ros-turbulent-ros2srv, ros-turbulent-ros2topic, ros-turbulent-rosidl-default-generators, ros-turbulent-rosidl-default-runtime, ros-turbulent-sros2, ros-turbulent-sros2-cmake, ros-turbulent-ros-workspace
+Description: A package to aggregate the packages required to use publish / subscribe, services, generate messages and other core ROS concepts.
