@@ -1,0 +1,12 @@
+Source: ros-turbulent-desktop
+Section: misc
+Priority: extra
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-action-tutorials-cpp, ros-turbulent-action-tutorials-interfaces, ros-turbulent-action-tutorials-py, ros-turbulent-angles, ros-turbulent-composition, ros-turbulent-demo-nodes-cpp, ros-turbulent-demo-nodes-cpp-native, ros-turbulent-demo-nodes-py, ros-turbulent-depthimage-to-laserscan, ros-turbulent-dummy-map-server, ros-turbulent-dummy-robot-bringup, ros-turbulent-dummy-sensors, ros-turbulent-examples-rclcpp-minimal-action-client, ros-turbulent-examples-rclcpp-minimal-action-server, ros-turbulent-examples-rclcpp-minimal-client, ros-turbulent-examples-rclcpp-minimal-composition, ros-turbulent-examples-rclcpp-minimal-publisher, ros-turbulent-examples-rclcpp-minimal-service, ros-turbulent-examples-rclcpp-minimal-subscriber, ros-turbulent-examples-rclcpp-minimal-timer, ros-turbulent-examples-rclpy-executors, ros-turbulent-examples-rclpy-minimal-action-client, ros-turbulent-examples-rclpy-minimal-action-server, ros-turbulent-examples-rclpy-minimal-client, ros-turbulent-examples-rclpy-minimal-publisher, ros-turbulent-examples-rclpy-minimal-service, ros-turbulent-examples-rclpy-minimal-subscriber, ros-turbulent-image-tools, ros-turbulent-intra-process-demo, ros-turbulent-joy, ros-turbulent-lifecycle, ros-turbulent-logging-demo, ros-turbulent-pcl-conversions, ros-turbulent-pendulum-control, ros-turbulent-pendulum-msgs, ros-turbulent-quality-of-service-demo-cpp, ros-turbulent-quality-of-service-demo-py, ros-turbulent-ros-base, ros-turbulent-rqt-common-plugins, ros-turbulent-rviz-default-plugins, ros-turbulent-rviz2, ros-turbulent-teleop-twist-joy, ros-turbulent-teleop-twist-keyboard, ros-turbulent-tlsf, ros-turbulent-tlsf-cpp, ros-turbulent-topic-monitor, ros-turbulent-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
