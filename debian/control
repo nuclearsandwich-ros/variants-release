@@ -1,0 +1,12 @@
+Source: ros-turbulent-ros-base
+Section: misc
+Priority: extra
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-ament-cmake, ros-turbulent-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-ros-base
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-turbulent-geometry2, ros-turbulent-kdl-parser, ros-turbulent-robot-state-publisher, ros-turbulent-ros-core, ros-turbulent-urdf, ros-turbulent-ros-workspace
+Description: A package which extends 'ros_core' and includes other basic functionalities like tf2 and urdf.
