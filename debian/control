@@ -1,0 +1,12 @@
+Source: ros-verystable-ros-core
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-ros-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ament-cmake, ros-verystable-ament-cmake-auto, ros-verystable-ament-cmake-gmock, ros-verystable-ament-cmake-gtest, ros-verystable-ament-cmake-pytest, ros-verystable-ament-cmake-ros, ros-verystable-ament-index-cpp, ros-verystable-ament-index-python, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-class-loader, ros-verystable-common-interfaces, ros-verystable-pluginlib, ros-verystable-rcl-lifecycle, ros-verystable-rclcpp, ros-verystable-rclcpp-lifecycle, ros-verystable-rclpy, ros-verystable-ros-environment, ros-verystable-ros2action, ros-verystable-ros2component, ros-verystable-ros2doctor, ros-verystable-ros2interface, ros-verystable-ros2launch, ros-verystable-ros2lifecycle, ros-verystable-ros2msg, ros-verystable-ros2multicast, ros-verystable-ros2node, ros-verystable-ros2param, ros-verystable-ros2pkg, ros-verystable-ros2run, ros-verystable-ros2service, ros-verystable-ros2srv, ros-verystable-ros2topic, ros-verystable-rosidl-default-generators, ros-verystable-rosidl-default-runtime, ros-verystable-sros2, ros-verystable-sros2-cmake, ros-verystable-ros-workspace
+Description: A package to aggregate the packages required to use publish / subscribe, services, generate messages and other core ROS concepts.
