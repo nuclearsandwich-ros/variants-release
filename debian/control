@@ -1,0 +1,12 @@
+Source: ros-verystable-desktop
+Section: misc
+Priority: optional
+Maintainer: Steven! Ragnarök <steven@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-desktop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-action-tutorials-cpp, ros-verystable-action-tutorials-interfaces, ros-verystable-action-tutorials-py, ros-verystable-angles, ros-verystable-composition, ros-verystable-demo-nodes-cpp, ros-verystable-demo-nodes-cpp-native, ros-verystable-demo-nodes-py, ros-verystable-depthimage-to-laserscan, ros-verystable-dummy-map-server, ros-verystable-dummy-robot-bringup, ros-verystable-dummy-sensors, ros-verystable-examples-rclcpp-minimal-action-client, ros-verystable-examples-rclcpp-minimal-action-server, ros-verystable-examples-rclcpp-minimal-client, ros-verystable-examples-rclcpp-minimal-composition, ros-verystable-examples-rclcpp-minimal-publisher, ros-verystable-examples-rclcpp-minimal-service, ros-verystable-examples-rclcpp-minimal-subscriber, ros-verystable-examples-rclcpp-minimal-timer, ros-verystable-examples-rclpy-executors, ros-verystable-examples-rclpy-minimal-action-client, ros-verystable-examples-rclpy-minimal-action-server, ros-verystable-examples-rclpy-minimal-client, ros-verystable-examples-rclpy-minimal-publisher, ros-verystable-examples-rclpy-minimal-service, ros-verystable-examples-rclpy-minimal-subscriber, ros-verystable-image-tools, ros-verystable-intra-process-demo, ros-verystable-joy, ros-verystable-lifecycle, ros-verystable-logging-demo, ros-verystable-pcl-conversions, ros-verystable-pendulum-control, ros-verystable-pendulum-msgs, ros-verystable-quality-of-service-demo-cpp, ros-verystable-quality-of-service-demo-py, ros-verystable-ros-base, ros-verystable-rqt-common-plugins, ros-verystable-rviz-default-plugins, ros-verystable-rviz2, ros-verystable-teleop-twist-joy, ros-verystable-teleop-twist-keyboard, ros-verystable-tlsf, ros-verystable-tlsf-cpp, ros-verystable-topic-monitor, ros-verystable-ros-workspace
+Description: A package which extends 'ros_base' and includes high level packages like vizualization tools and demos.
